@@ -1,0 +1,73 @@
+[gd_scene load_steps=14 format=3 uid="uid://b1ps6y4o1tdjr"]
+
+[ext_resource type="Script" uid="uid://foxhqclrakpi" path="res://scenes/monkey_2.gd" id="1_ldpek"]
+[ext_resource type="Texture2D" uid="uid://c4abkyldgfbv7" path="res://assets/sprites/monkeys/melee troop/idle/1-idle_melee.png" id="2_ldpek"]
+[ext_resource type="Texture2D" uid="uid://drj2427t7cg77" path="res://assets/sprites/monkeys/melee troop/attack/1-attack_melee.png" id="2_m77bs"]
+[ext_resource type="Texture2D" uid="uid://b6w7fhydqp3de" path="res://assets/sprites/monkeys/melee troop/idle/2-idle_melee.png" id="3_o60g1"]
+[ext_resource type="Texture2D" uid="uid://dxs73kclvt3br" path="res://assets/sprites/monkeys/melee troop/attack/2-attack_melee.png" id="3_wrc8y"]
+[ext_resource type="Texture2D" uid="uid://bx24eb8kbswuu" path="res://assets/sprites/monkeys/melee troop/idle/3-idle_melee.png" id="4_6djog"]
+[ext_resource type="Texture2D" uid="uid://dfsigvbtsrl11" path="res://assets/sprites/monkeys/melee troop/attack/3-attack_melee.png" id="4_dmsvo"]
+[ext_resource type="Texture2D" uid="uid://cvkwyo2cubxjv" path="res://assets/sprites/monkeys/melee troop/attack/4-attack_melee.png" id="5_bmiau"]
+[ext_resource type="Texture2D" uid="uid://lnegiteyj1i5" path="res://assets/sprites/monkeys/melee troop/idle/4-idle_melee.png" id="5_cwgqp"]
+[ext_resource type="Texture2D" uid="uid://vw5nlc0v5kag" path="res://assets/sprites/monkeys/melee troop/idle/5-idle_melee.png" id="6_m77bs"]
+[ext_resource type="Texture2D" uid="uid://clq0claftyc0v" path="res://assets/sprites/monkeys/melee troop/idle/6-idle_melee.png" id="7_wrc8y"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0mre7"]
+radius = 31.0161
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vmjsb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_m77bs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_wrc8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dmsvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_bmiau")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ldpek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_o60g1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6djog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cwgqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_m77bs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_wrc8y")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="monkey_2" type="Area2D" groups=["team"]]
+script = ExtResource("1_ldpek")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_0mre7")
+
+[node name="anim" type="AnimatedSprite2D" parent="."]
+position = Vector2(3.8147e-06, 1.90735e-06)
+scale = Vector2(0.12, 0.119)
+sprite_frames = SubResource("SpriteFrames_vmjsb")
+animation = &"attack"
+frame = 3
+frame_progress = 1.0

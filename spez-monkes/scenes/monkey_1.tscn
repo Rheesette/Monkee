@@ -1,19 +1,60 @@
-[gd_scene load_steps=5 format=3 uid="uid://ovm1ejed2p16"]
+[gd_scene load_steps=14 format=3 uid="uid://ovm1ejed2p16"]
 
 [ext_resource type="Script" uid="uid://crjqh1owj1i6s" path="res://scripts/monkey_1.gd" id="1_aubuo"]
-[ext_resource type="Texture2D" uid="uid://dxhfu6g0482fv" path="res://assets/sprites/gorilla.png" id="2_aubuo"]
+[ext_resource type="Texture2D" uid="uid://c18lxrcwupvao" path="res://assets/sprites/monkeys/gorilla/idle/1-idle_gorilla.png" id="2_0yqeq"]
+[ext_resource type="Texture2D" uid="uid://btkrlmh2vr65y" path="res://assets/sprites/monkeys/gorilla/idle/2-idle_gorilla.png" id="3_0lggx"]
+[ext_resource type="Texture2D" uid="uid://bilj0ju11xca5" path="res://assets/sprites/monkeys/gorilla/idle/3-idle_gorilla.png" id="4_1nu8i"]
+[ext_resource type="Texture2D" uid="uid://cmntpkyjc4ilx" path="res://assets/sprites/monkeys/gorilla/attack/1-attack_gorilla.png" id="5_l4tka"]
+[ext_resource type="Texture2D" uid="uid://cpeoke7rr3muf" path="res://assets/sprites/monkeys/gorilla/attack/10-attack_gorilla.png" id="14_cnki7"]
+[ext_resource type="Texture2D" uid="uid://gtii0pqjoy28" path="res://assets/sprites/monkeys/gorilla/attack/11-attack_gorilla.png" id="15_0e7bc"]
+[ext_resource type="Texture2D" uid="uid://bpahjbxmtqvfu" path="res://assets/sprites/monkeys/gorilla/attack/12-attack_gorilla.png" id="16_qwffm"]
+[ext_resource type="Texture2D" uid="uid://drc21s4dk7i5o" path="res://assets/sprites/monkeys/gorilla/attack/13-attack_gorilla.png" id="17_n8e8q"]
+[ext_resource type="Texture2D" uid="uid://dhwmecsx2qcm3" path="res://assets/sprites/monkeys/gorilla/attack/14-attack_gorilla.png" id="18_jagih"]
+[ext_resource type="Texture2D" uid="uid://wnpj0p3dg5uq" path="res://assets/sprites/monkeys/gorilla/attack/15-attack_gorilla.png" id="19_6if2f"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0mre7"]
 radius = 31.0161
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_vmjsb"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_0yqeq"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_aubuo")
+"texture": ExtResource("5_l4tka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_cnki7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_0e7bc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_qwffm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_n8e8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_jagih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_6if2f")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_0yqeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0lggx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1nu8i")
 }],
 "loop": true,
-"name": &"default",
+"name": &"idle",
 "speed": 5.0
 }]
 
@@ -23,8 +64,10 @@ script = ExtResource("1_aubuo")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_0mre7")
 
-[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+[node name="anim" type="AnimatedSprite2D" parent="."]
 position = Vector2(3.8147e-06, 1.90735e-06)
-scale = Vector2(0.12, 0.119)
-sprite_frames = SubResource("SpriteFrames_vmjsb")
-autoplay = "default"
+scale = Vector2(0.15, 0.149)
+sprite_frames = SubResource("SpriteFrames_0yqeq")
+animation = &"idle"
+frame = 2
+frame_progress = 0.384354

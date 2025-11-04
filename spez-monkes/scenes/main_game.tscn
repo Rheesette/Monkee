@@ -1,8 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://dhw0may3xvnh"]
+[gd_scene load_steps=8 format=3 uid="uid://dhw0may3xvnh"]
 
 [ext_resource type="Script" uid="uid://df2q51gonkda4" path="res://scenes/main_game.gd" id="1_d2op2"]
+[ext_resource type="Texture2D" uid="uid://b3x317fwi7l45" path="res://assets/sprites/tower/alienTower(normal) .png" id="2_0rdsr"]
 [ext_resource type="Script" uid="uid://ci5b5orypbxfe" path="res://scenes/sprite_2d.gd" id="2_72e8q"]
-[ext_resource type="Texture2D" uid="uid://jvjtc5blbbt4" path="res://assets/sprites/icon.svg" id="3_d2op2"]
+[ext_resource type="Texture2D" uid="uid://2h4c4bcu8aof" path="res://assets/backgrounds/bg3.png" id="2_ipu61"]
+[ext_resource type="Texture2D" uid="uid://dd7qsscix2g2f" path="res://assets/sprites/tower/bananaShip(normal).png" id="4_ipu61"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ihbon"]
 bg_color = Color(0.455344, 0.666909, 0.390617, 1)
@@ -12,6 +14,11 @@ bg_color = Color(0.793977, 0.702555, 0.764074, 1)
 
 [node name="Main game" type="Node"]
 script = ExtResource("1_d2op2")
+
+[node name="Bg3" type="Sprite2D" parent="."]
+position = Vector2(320, 177.5)
+scale = Vector2(0.417969, 0.379883)
+texture = ExtResource("2_ipu61")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
 anchors_preset = 7
@@ -81,16 +88,23 @@ size_flags_horizontal = 3
 text = "Tower Skills & Icon"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(53, 213)
-scale = Vector2(0.40625, 1.36719)
-texture = ExtResource("3_d2op2")
+position = Vector2(72, 213)
+texture = ExtResource("2_0rdsr")
 script = ExtResource("2_72e8q")
 
 [node name="Timer" type="Timer" parent="Sprite2D"]
+wait_time = 3.0
 autostart = true
 
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(536, 268)
 
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(535, 218)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("4_ipu61")
+script = ExtResource("2_72e8q")
+
 [connection signal="pressed" from="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer/Button2" to="." method="_on_button_2_pressed"]
 [connection signal="timeout" from="Sprite2D/Timer" to="Sprite2D" method="_on_timer_timeout"]

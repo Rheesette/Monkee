@@ -1,7 +1,30 @@
-[gd_scene load_steps=4 format=3 uid="uid://cryguew0qybqw"]
+[gd_scene load_steps=8 format=3 uid="uid://cryguew0qybqw"]
 
 [ext_resource type="Script" uid="uid://btyqf365q0i6" path="res://scripts/enemy_1.gd" id="1_a1412"]
-[ext_resource type="Texture2D" uid="uid://jvjtc5blbbt4" path="res://assets/sprites/icon.svg" id="1_tcmaw"]
+[ext_resource type="Texture2D" uid="uid://dhhdp3uy3iboi" path="res://assets/sprites/aliens/alien 1/idle/1-idle_alien1.png" id="2_d3026"]
+[ext_resource type="Texture2D" uid="uid://droaad7jjhvdk" path="res://assets/sprites/aliens/alien 1/idle/2-idle_alien1.png" id="3_l21ug"]
+[ext_resource type="Texture2D" uid="uid://c6sd7ksiqq06o" path="res://assets/sprites/aliens/alien 1/idle/3-idle_alien1.png" id="4_6nrqq"]
+[ext_resource type="Texture2D" uid="uid://tsbkg5vx71ds" path="res://assets/sprites/aliens/alien 1/idle/4-idle_alien1.png" id="5_oweuj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hcr21"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_d3026")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_l21ug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6nrqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_oweuj")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_pjquw"]
 radius = 15.0
@@ -9,9 +32,11 @@ radius = 15.0
 [node name="enemy1" type="Area2D" groups=["enemy"]]
 script = ExtResource("1_a1412")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(0.2, 0.2)
-texture = ExtResource("1_tcmaw")
+sprite_frames = SubResource("SpriteFrames_hcr21")
+animation = &"idle"
+autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_pjquw")

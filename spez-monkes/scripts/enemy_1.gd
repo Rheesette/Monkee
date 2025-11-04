@@ -1,18 +1,37 @@
 extends Area2D
 
+var hp = 3.0
+var dmg = 1
+var cooldown = .5
+
 @export var speed: float = 50
-@export var knockback_force: float = 10
+@export var knockback_force: float = 15
 var direction: int = 1
+var can_move: bool = true
 
 func _ready():
 	connect("area_entered", Callable(self, "_on_area_entered"))
 
 func _process(delta):
-	position.x += speed * direction * delta
+	if can_move:
+		position.x += speed * direction * delta
 
 func _on_area_entered(area):
 	if area.is_in_group("team"):
+		attack()
 		knockback()
+		area.damage(dmg)
+
+func attack() -> void:
+	can_move = false
+	await get_tree().create_timer(.5).timeout
+	can_move = true
 
 func knockback():
 	position.x -= knockback_force
+
+func damage(dmg):
+	self.hp -= dmg
+	print(self.hp)
+	if self.hp <= 0:
+		queue_free()
