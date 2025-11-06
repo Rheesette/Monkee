@@ -1,92 +1,95 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1762251449
-::res://assets/::1759721991
-::res://assets/backgrounds/::1762254186
-bg3.png::CompressedTexture2D::1911315311724183721::1762254185::1762254186::1::::<><><>0<>0<>5893de160cf85cfd55b58eabe64238c9<>res://.godot/imported/bg3.png-e504b8d853ae0eb4b0229b30bbc68aec.ctex::
+::res://::1762360688
+::res://assets/::1762257993
+::res://assets/backgrounds/::1762257949
+bg3.png::CompressedTexture2D/CompressedTexture2D::1911315311724183721::1762254185::1762254186::1::::<><><>0<>0<>5893de160cf85cfd55b58eabe64238c9<>res://.godot/imported/bg3.png-e504b8d853ae0eb4b0229b30bbc68aec.ctex::
 ::res://assets/music/::1759718661
-::res://assets/sprites/::1762255640
+::res://assets/sprites/::1762258344
+gorilla.png::CompressedTexture2D/CompressedTexture2D::8788397038543045411::1762257682::1762258344::1::::<><><>0<>0<>51f8be9757a8d2e259070547f9c97adf<>res://.godot/imported/gorilla.png-ecd9f09a0f9561ec3eac32efb86804d1.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::675632060047646975::1759721991::1759721991::1::::<><><>0<>0<>c0774aa07b4fcc639108a17185e74123<>res://.godot/imported/icon.svg-00a55f41757400f7387d4069be498893.ctex::
-::res://assets/sprites/aliens/::1762255641
-::res://assets/sprites/aliens/alien 1/::1762255641
-alien 1.png::CompressedTexture2D::3458747954053531276::1762255640::1762255641::1::::<><><>0<>0<>41da953ec02de4e8f3c29dc91fed7d3c<>res://.godot/imported/alien 1.png-2782262bed705e893d46df32de5715d7.ctex::
-::res://assets/sprites/aliens/alien 1/attack/::1762255641
-1-atk_alien1.png::CompressedTexture2D::2608373297189878731::1762255640::1762255641::1::::<><><>0<>0<>4de08458307ae498c9c0d8afb2e32657<>res://.godot/imported/1-atk_alien1.png-7d28d7217e4e761d84af02da7836fa97.ctex::
-2-atk_alien1.png::CompressedTexture2D::3833652455638281628::1762255640::1762255641::1::::<><><>0<>0<>fe80828e8b97829ae0e4a5cffe8ce2a2<>res://.godot/imported/2-atk_alien1.png-7f1fd2d879ea5e2be9a61b72d076813c.ctex::
-3-atk_alien1.png::CompressedTexture2D::1872651338298029024::1762255640::1762255641::1::::<><><>0<>0<>67e3489f948fc6b9226465ac0dd655fc<>res://.godot/imported/3-atk_alien1.png-4bb3ce24af757567309b3d961c478b02.ctex::
-4-atk_alien1.png::CompressedTexture2D::6356135792346032514::1762255640::1762255641::1::::<><><>0<>0<>1e93b159e5802d8d68d0c29c07c6862a<>res://.godot/imported/4-atk_alien1.png-a25798d94e863927bbe66e7b636eeb78.ctex::
-5-atk_alien1.png::CompressedTexture2D::997715840842871939::1762255640::1762255641::1::::<><><>0<>0<>6dda402195544240d45374fe9399aa11<>res://.godot/imported/5-atk_alien1.png-9c2c3db465d712708089a777717d7126.ctex::
-6-atk_alien1.png::CompressedTexture2D::2191915812054395866::1762255640::1762255641::1::::<><><>0<>0<>3ebcfc941fe05ffceb100e21e0a6ca3a<>res://.godot/imported/6-atk_alien1.png-dba5cb053b4ba9a0a84552c6ad10dce7.ctex::
-7-atk_alien1.png::CompressedTexture2D::83665722219756708::1762255641::1762255641::1::::<><><>0<>0<>65455a1823c8d2102a5201699dc77cb5<>res://.godot/imported/7-atk_alien1.png-dc8490d5e723d20e0dfcf629739d67da.ctex::
-8-atk_alien1.png::CompressedTexture2D::6238987694893427416::1762255641::1762255641::1::::<><><>0<>0<>230d969454996d53f930650fc0f4d022<>res://.godot/imported/8-atk_alien1.png-16fde38bdb803716d3ea97b77153f3b7.ctex::
-9-atk_alien1.png::CompressedTexture2D::1219803612364406107::1762255641::1762255641::1::::<><><>0<>0<>5f06770b981b914e315e9e4c75da775b<>res://.godot/imported/9-atk_alien1.png-d78b9e1c691398a24c378f7d84e5e6e4.ctex::
-10-atk_alien1.png::CompressedTexture2D::665794384682496682::1762255640::1762255641::1::::<><><>0<>0<>3b37735798729e31d30e39cbb0e925ca<>res://.godot/imported/10-atk_alien1.png-56f69c6d0735ed1f14e687ba7c2733d7.ctex::
-::res://assets/sprites/aliens/alien 1/idle/::1762255641
-1-idle_alien1.png::CompressedTexture2D::7665245041388897128::1762255641::1762255641::1::::<><><>0<>0<>384ebf8c2aa563438e9da44d6f6eb9d9<>res://.godot/imported/1-idle_alien1.png-2e7137d035089940ea81a4493edee635.ctex::
-2-idle_alien1.png::CompressedTexture2D::8381373888907727660::1762255641::1762255641::1::::<><><>0<>0<>6ad97853fb072773a80a57cb2238dadf<>res://.godot/imported/2-idle_alien1.png-0bba6d1be2e81327ea13802007dae443.ctex::
-3-idle_alien1.png::CompressedTexture2D::6986094169547042576::1762255641::1762255641::1::::<><><>0<>0<>195e87c87c38124e84bd9e28e032343a<>res://.godot/imported/3-idle_alien1.png-b36ba5463a52eb47392392288074a32a.ctex::
-4-idle_alien1.png::CompressedTexture2D::1370825766097907568::1762255641::1762255641::1::::<><><>0<>0<>6166e60026050383ddb1fc470bd31167<>res://.godot/imported/4-idle_alien1.png-65037f64e07f18ffc5eefea9b1781b20.ctex::
-::res://assets/sprites/aliens/alien 2/::1762255641
-alien 2.png::CompressedTexture2D::3772487326455774762::1762255641::1762255641::1::::<><><>0<>0<>f642b92993a90350245eea3e92275b14<>res://.godot/imported/alien 2.png-e96c2cea6d0f9c2ca95a5e35bd16eff1.ctex::
-::res://assets/sprites/aliens/alien 2/idle/::1762255641
-1-idle_alien2.png::CompressedTexture2D::7534500262449120096::1762255641::1762255641::1::::<><><>0<>0<>77a24e52358e30845c08385a261e7be0<>res://.godot/imported/1-idle_alien2.png-84c7a4a043754ad0d09bc16dc80221c1.ctex::
-2-idle_alien2.png::CompressedTexture2D::1599474961836869241::1762255641::1762255641::1::::<><><>0<>0<>04c5e1e4c6a1c289b490661547b2c65a<>res://.godot/imported/2-idle_alien2.png-6d5beade78792a4ae4d719073159030d.ctex::
-3-idle_alien2.png::CompressedTexture2D::2770369749193399127::1762255641::1762255641::1::::<><><>0<>0<>57adf607b97b224b4ad9d65e799700fa<>res://.godot/imported/3-idle_alien2.png-6c7362f6940b08d412b2b96a2f03a3e9.ctex::
-4-idle_alien2.png::CompressedTexture2D::8107794240467885269::1762255641::1762255641::1::::<><><>0<>0<>956e2a0ac61654a6a48cd18989ed0f22<>res://.godot/imported/4-idle_alien2.png-fb2d49c72524fc9bce76662242dd8485.ctex::
-5-idle_alien2.png::CompressedTexture2D::7295129699874742022::1762255641::1762255641::1::::<><><>0<>0<>f67691b6aba7fc3b2270d04c736ee20b<>res://.godot/imported/5-idle_alien2.png-069bd78ddb9588e9fce40b09df609dbd.ctex::
-6-idle_alien2.png::CompressedTexture2D::7576547006510353399::1762255641::1762255641::1::::<><><>0<>0<>e7c962a551e42a7f4e798b511ffe02ed<>res://.godot/imported/6-idle_alien2.png-f691c70fe221e236d5b7199b325fa904.ctex::
-7-idle_alien2.png::CompressedTexture2D::2328837168160087983::1762255641::1762255641::1::::<><><>0<>0<>2deddaa357e0897e6375c99e267c0f3b<>res://.godot/imported/7-idle_alien2.png-4c6ad1942c8dc74c178501ed6aae5353.ctex::
-::res://assets/sprites/monkeys/::1762251538
-::res://assets/sprites/monkeys/gorilla/::1762251539
-gorilla.png::CompressedTexture2D::4749698692174046846::1762251538::1762251539::1::::<><><>0<>0<>2c71a14a0262686ecebcc91e0dafa5fa<>res://.godot/imported/gorilla.png-0421c5d8d3da9c340ede8748085a4eb8.ctex::
-::res://assets/sprites/monkeys/gorilla/attack/::1762251539
-1-attack_gorilla.png::CompressedTexture2D::5643125374338052437::1762251538::1762251539::1::::<><><>0<>0<>682f6321a6c533fcb996eb6e2289c174<>res://.godot/imported/1-attack_gorilla.png-96a856f8576e8ba248917d72c88cd306.ctex::
-2-attack_gorilla.png::CompressedTexture2D::4261165018005259559::1762251538::1762251539::1::::<><><>0<>0<>b7c754a7127ad34f162e507c804ffb3e<>res://.godot/imported/2-attack_gorilla.png-7be04c66f3739d750b5a1c0673dbfdc9.ctex::
-3-attack_gorilla.png::CompressedTexture2D::4900235493757221492::1762251538::1762251539::1::::<><><>0<>0<>5de0bd43b9980fa148b1364ef8e51f16<>res://.godot/imported/3-attack_gorilla.png-3d87e6c0dd6ec230f7e238ceff99ab8e.ctex::
-4-attack_gorilla.png::CompressedTexture2D::652990047262567624::1762251538::1762251539::1::::<><><>0<>0<>04de7da1e810736933a7e587662a7309<>res://.godot/imported/4-attack_gorilla.png-a2211642dde4ee8366fa10948a145190.ctex::
-5-attack_gorilla.png::CompressedTexture2D::4004358240946081927::1762251538::1762251539::1::::<><><>0<>0<>cd6e983d44ef12557fa051aad01e5b26<>res://.godot/imported/5-attack_gorilla.png-20329ef14ae49611982f10e233e6df60.ctex::
-6-attack_gorilla.png::CompressedTexture2D::6919766447846884437::1762251538::1762251539::1::::<><><>0<>0<>442a6d717dd53af8beb68c8c983e0013<>res://.godot/imported/6-attack_gorilla.png-86a941cb15f989835436094bede2baea.ctex::
-7-attack_gorilla.png::CompressedTexture2D::2181283064157897392::1762251538::1762251539::1::::<><><>0<>0<>a39910b29923f83bc948e460c805d162<>res://.godot/imported/7-attack_gorilla.png-a9d2641bb9f0fd636ef6ab0bea5ce52d.ctex::
-8-attack_gorilla.png::CompressedTexture2D::1859929641353688317::1762251538::1762251539::1::::<><><>0<>0<>4d76956f9d761fea06a8f96f93f933b9<>res://.godot/imported/8-attack_gorilla.png-3e52418c4e0db9cd1aa03578b8fb12ef.ctex::
-9-attack_gorilla.png::CompressedTexture2D::8023058712693063094::1762251538::1762251539::1::::<><><>0<>0<>5b14e58c8d4fbc42d9497594a7bc8b16<>res://.godot/imported/9-attack_gorilla.png-cc5ba0863bff47d04e7d509fff7b1561.ctex::
-10-attack_gorilla.png::CompressedTexture2D::5834799689134083309::1762251538::1762251539::1::::<><><>0<>0<>f652ecbf520988be4ac013884fef224b<>res://.godot/imported/10-attack_gorilla.png-c2e1f71f426c77577e08f38cd686066c.ctex::
-11-attack_gorilla.png::CompressedTexture2D::460857598444093527::1762251538::1762251539::1::::<><><>0<>0<>e75d2ac4949a18737e52f9b2dd5dd963<>res://.godot/imported/11-attack_gorilla.png-ddeece0be888290cbe5a72a5bfe4b7c5.ctex::
-12-attack_gorilla.png::CompressedTexture2D::3439694517983216642::1762251538::1762251539::1::::<><><>0<>0<>11bd7c7568b10dc42a53e3fe6f703e9f<>res://.godot/imported/12-attack_gorilla.png-8d3d1ef9613628811b97bdf7b2cb9456.ctex::
-13-attack_gorilla.png::CompressedTexture2D::8358287928250763370::1762251538::1762251539::1::::<><><>0<>0<>e539fcbd7f315f417d55952b91abbf67<>res://.godot/imported/13-attack_gorilla.png-4c54efd344c6f78e66a8c14a44fe75fc.ctex::
-14-attack_gorilla.png::CompressedTexture2D::7696736148158569292::1762251538::1762251539::1::::<><><>0<>0<>dae932a060b5a19c4c57a4000675fe2e<>res://.godot/imported/14-attack_gorilla.png-524ad79e7eef619544859c992c8fbc80.ctex::
-15-attack_gorilla.png::CompressedTexture2D::1571919635408422480::1762251538::1762251539::1::::<><><>0<>0<>354bc04d7730f17b97d22bff3ad9f383<>res://.godot/imported/15-attack_gorilla.png-3744ba35552d2fc1f99729119becfe9f.ctex::
-::res://assets/sprites/monkeys/gorilla/idle/::1762251539
-1-idle_gorilla.png::CompressedTexture2D::6666585625052741594::1762251538::1762251539::1::::<><><>0<>0<>c847f22e4bbe56965c901253e5154a8f<>res://.godot/imported/1-idle_gorilla.png-2efc95d38ed7c050b04af7d79178b1f9.ctex::
-2-idle_gorilla.png::CompressedTexture2D::3741704965315655048::1762251538::1762251539::1::::<><><>0<>0<>1f62e471604b12c48fa8abb70e30c1fd<>res://.godot/imported/2-idle_gorilla.png-c578af8744db935af488d06700bf23f4.ctex::
-3-idle_gorilla.png::CompressedTexture2D::2971231190697749950::1762251538::1762251538::1::::<><><>0<>0<>2162130526558d4020ec1228f1e80016<>res://.godot/imported/3-idle_gorilla.png-f2bbaed27a9a0b138f151d805954337e.ctex::
-::res://assets/sprites/monkeys/melee troop/::1762251538
-melee troop.png::CompressedTexture2D::5501171240713591211::1762251538::1762251538::1::::<><><>0<>0<>bb55bc09cae7c5747abd6f05fcc29d4e<>res://.godot/imported/melee troop.png-d82c5c0db7c2148cabc92652ff89b9aa.ctex::
-::res://assets/sprites/monkeys/melee troop/attack/::1762251538
-1-attack_melee.png::CompressedTexture2D::8372744408010645864::1762251538::1762251538::1::::<><><>0<>0<>a1d1ceb2d3cd51afbe9a2ab2d2d9d8e6<>res://.godot/imported/1-attack_melee.png-b2a5d547cf6d6c44043a1eaf00a9166e.ctex::
-2-attack_melee.png::CompressedTexture2D::8812757729176730091::1762251538::1762251538::1::::<><><>0<>0<>10e3348815a7d3e152c43e186c3b1ca2<>res://.godot/imported/2-attack_melee.png-863cb358e34f2f995703e42c7b2a6e9f.ctex::
-3-attack_melee.png::CompressedTexture2D::7547862624971268482::1762251538::1762251538::1::::<><><>0<>0<>e360a0252951249007d7671c3dc7bf2b<>res://.godot/imported/3-attack_melee.png-51e29ec66b486d038ca5dafd6e560714.ctex::
-4-attack_melee.png::CompressedTexture2D::6268830271374344683::1762251538::1762251538::1::::<><><>0<>0<>5615e2dea1ad2344b6ae19dfc9f6f903<>res://.godot/imported/4-attack_melee.png-bba56858b9490f13c8d272d6eca3459f.ctex::
-::res://assets/sprites/monkeys/melee troop/idle/::1762251538
-1-idle_melee.png::CompressedTexture2D::6808397685518731414::1762251538::1762251538::1::::<><><>0<>0<>847de04aca90282f7b73f3f0f6d03b46<>res://.godot/imported/1-idle_melee.png-73e6f3eb85c6638e67a00be9d8e21a2d.ctex::
-2-idle_melee.png::CompressedTexture2D::4609643424696538034::1762251538::1762251538::1::::<><><>0<>0<>7ea5db2a5a404abf06d6d57cfcbdbd4c<>res://.godot/imported/2-idle_melee.png-edbe409308a42bcb7ad9e97fa0a5c7e0.ctex::
-3-idle_melee.png::CompressedTexture2D::4058270326651626932::1762251538::1762251538::1::::<><><>0<>0<>a9560580e931c7f09991087907f2a4e6<>res://.godot/imported/3-idle_melee.png-b454905b4bef419f7c1545fce81ee8b5.ctex::
-4-idle_melee.png::CompressedTexture2D::799168223307911454::1762251538::1762251538::1::::<><><>0<>0<>463595a3bde14d2d9db86f2cd5f9ece5<>res://.godot/imported/4-idle_melee.png-167cbdd8dc80f01d900b53423e026864.ctex::
-5-idle_melee.png::CompressedTexture2D::1521227334103352462::1762251538::1762251538::1::::<><><>0<>0<>3b8198ade6002586f4d3dcaed9b21bd3<>res://.godot/imported/5-idle_melee.png-25106594e143c3be916a9b03fe6eba82.ctex::
-6-idle_melee.png::CompressedTexture2D::5579470765886851711::1762251538::1762251538::1::::<><><>0<>0<>b91991c70ded5eda03f759d813f256a1<>res://.godot/imported/6-idle_melee.png-5b3272f402f6c32971f0ed7ab8697962.ctex::
-::res://assets/sprites/monkeys/meme monke/::1762251538
-::res://assets/sprites/monkeys/meme monke/draft/::1762251538
-monke perfect.png::CompressedTexture2D::3046795323218496217::1762251538::1762251538::1::::<><><>0<>0<>4745649b973b7b54d04eba8df3676660<>res://.godot/imported/monke perfect.png-f750820cba3b663d5ab0873823d6d1da.ctex::
-::res://assets/sprites/tower/::1762254046
-alienTower(normal) .png::CompressedTexture2D::4400937189823139108::1762254046::1762254046::1::::<><><>0<>0<>4e61881c8bb8e9b1bd6842d77e03359f<>res://.godot/imported/alienTower(normal) .png-1c0c105f32b832b9e9bb3879073147ff.ctex::
-bananaShip(normal).png::CompressedTexture2D::7436893235203064315::1762254043::1762254044::1::::<><><>0<>0<>fdc8889ac4329816e2476612ba3702b8<>res://.godot/imported/bananaShip(normal).png-9dcc2901c32150b0f051d91b82ee284a.ctex::
-::res://scenes/::1762254318
-enemy_1.tscn::PackedScene::6015997038402193690::1762254318::0::1::::<><><>0<>0<><>::uid://btyqf365q0i6::::res://scripts/enemy_1.gd<>uid://jvjtc5blbbt4::::res://assets/sprites/icon.svg
-main_game.gd::GDScript::7566970889860284425::1762252316::0::1::::<>Node<><>0<>0<><>::
-main_game.tscn::PackedScene::226398225289998221::1762254318::0::1::::<><><>0<>0<><>::uid://df2q51gonkda4::::res://scenes/main_game.gd<>uid://b3x317fwi7l45::::res://assets/sprites/tower/alienTower(normal) .png<>uid://ci5b5orypbxfe::::res://scenes/sprite_2d.gd<>uid://2h4c4bcu8aof::::res://assets/backgrounds/bg3.png<>uid://dd7qsscix2g2f::::res://assets/sprites/tower/bananaShip(normal).png
-monkey_1.tscn::PackedScene::1026771002505904023::1762254318::0::1::::<><><>0<>0<><>::uid://crjqh1owj1i6s::::res://scripts/monkey_1.gd<>uid://c18lxrcwupvao::::res://assets/sprites/monkeys/gorilla/idle/1-idle_gorilla.png<>uid://btkrlmh2vr65y::::res://assets/sprites/monkeys/gorilla/idle/2-idle_gorilla.png<>uid://bilj0ju11xca5::::res://assets/sprites/monkeys/gorilla/idle/3-idle_gorilla.png<>uid://cmntpkyjc4ilx::::res://assets/sprites/monkeys/gorilla/attack/1-attack_gorilla.png<>uid://cpeoke7rr3muf::::res://assets/sprites/monkeys/gorilla/attack/10-attack_gorilla.png<>uid://gtii0pqjoy28::::res://assets/sprites/monkeys/gorilla/attack/11-attack_gorilla.png<>uid://bpahjbxmtqvfu::::res://assets/sprites/monkeys/gorilla/attack/12-attack_gorilla.png<>uid://drc21s4dk7i5o::::res://assets/sprites/monkeys/gorilla/attack/13-attack_gorilla.png<>uid://dhwmecsx2qcm3::::res://assets/sprites/monkeys/gorilla/attack/14-attack_gorilla.png<>uid://wnpj0p3dg5uq::::res://assets/sprites/monkeys/gorilla/attack/15-attack_gorilla.png
-monkey_2.tscn::PackedScene::4243445856105010567::1762254318::0::1::::<><><>0<>0<><>::uid://foxhqclrakpi::::res://scenes/monkey_2.gd<>uid://c4abkyldgfbv7::::res://assets/sprites/monkeys/melee troop/idle/1-idle_melee.png<>uid://drj2427t7cg77::::res://assets/sprites/monkeys/melee troop/attack/1-attack_melee.png<>uid://b6w7fhydqp3de::::res://assets/sprites/monkeys/melee troop/idle/2-idle_melee.png<>uid://dxs73kclvt3br::::res://assets/sprites/monkeys/melee troop/attack/2-attack_melee.png<>uid://bx24eb8kbswuu::::res://assets/sprites/monkeys/melee troop/idle/3-idle_melee.png<>uid://dfsigvbtsrl11::::res://assets/sprites/monkeys/melee troop/attack/3-attack_melee.png<>uid://cvkwyo2cubxjv::::res://assets/sprites/monkeys/melee troop/attack/4-attack_melee.png<>uid://lnegiteyj1i5::::res://assets/sprites/monkeys/melee troop/idle/4-idle_melee.png<>uid://vw5nlc0v5kag::::res://assets/sprites/monkeys/melee troop/idle/5-idle_melee.png<>uid://clq0claftyc0v::::res://assets/sprites/monkeys/melee troop/idle/6-idle_melee.png
-monkey_2.gd::GDScript::381255342123692318::1762253887::0::1::::<>Area2D<><>0<>0<><>::
+pixil-frame-0 (4).png::CompressedTexture2D/CompressedTexture2D::3034996480018430056::1762257682::1762258344::1::::<><><>0<>0<>b3143d84c8d7afab979315f1ce464480<>res://.godot/imported/pixil-frame-0 (4).png-3f7696faae3b934efd4700c462ed0289.ctex::
+pixil-frame-1 (2).png::CompressedTexture2D/CompressedTexture2D::6272062280811735366::1762257682::1762258344::1::::<><><>0<>0<>bf8ada54905bab1a9a651d3738e21048<>res://.godot/imported/pixil-frame-1 (2).png-f20ccb6b2da3feb931491f5133059105.ctex::
+::res://assets/sprites/aliens/::1762257949
+::res://assets/sprites/aliens/alien 1/::1762257949
+alien 1.png::CompressedTexture2D/CompressedTexture2D::3458747954053531276::1762255640::1762255641::1::::<><><>0<>0<>41da953ec02de4e8f3c29dc91fed7d3c<>res://.godot/imported/alien 1.png-2782262bed705e893d46df32de5715d7.ctex::
+::res://assets/sprites/aliens/alien 1/attack/::1762257949
+1-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::2608373297189878731::1762255640::1762255641::1::::<><><>0<>0<>4de08458307ae498c9c0d8afb2e32657<>res://.godot/imported/1-atk_alien1.png-7d28d7217e4e761d84af02da7836fa97.ctex::
+2-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::3833652455638281628::1762255640::1762255641::1::::<><><>0<>0<>fe80828e8b97829ae0e4a5cffe8ce2a2<>res://.godot/imported/2-atk_alien1.png-7f1fd2d879ea5e2be9a61b72d076813c.ctex::
+3-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::1872651338298029024::1762255640::1762255641::1::::<><><>0<>0<>67e3489f948fc6b9226465ac0dd655fc<>res://.godot/imported/3-atk_alien1.png-4bb3ce24af757567309b3d961c478b02.ctex::
+4-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::6356135792346032514::1762255640::1762255641::1::::<><><>0<>0<>1e93b159e5802d8d68d0c29c07c6862a<>res://.godot/imported/4-atk_alien1.png-a25798d94e863927bbe66e7b636eeb78.ctex::
+5-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::997715840842871939::1762255640::1762255641::1::::<><><>0<>0<>6dda402195544240d45374fe9399aa11<>res://.godot/imported/5-atk_alien1.png-9c2c3db465d712708089a777717d7126.ctex::
+6-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::2191915812054395866::1762255640::1762255641::1::::<><><>0<>0<>3ebcfc941fe05ffceb100e21e0a6ca3a<>res://.godot/imported/6-atk_alien1.png-dba5cb053b4ba9a0a84552c6ad10dce7.ctex::
+7-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::83665722219756708::1762255641::1762255641::1::::<><><>0<>0<>65455a1823c8d2102a5201699dc77cb5<>res://.godot/imported/7-atk_alien1.png-dc8490d5e723d20e0dfcf629739d67da.ctex::
+8-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::6238987694893427416::1762255641::1762255641::1::::<><><>0<>0<>230d969454996d53f930650fc0f4d022<>res://.godot/imported/8-atk_alien1.png-16fde38bdb803716d3ea97b77153f3b7.ctex::
+9-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::1219803612364406107::1762255641::1762255641::1::::<><><>0<>0<>5f06770b981b914e315e9e4c75da775b<>res://.godot/imported/9-atk_alien1.png-d78b9e1c691398a24c378f7d84e5e6e4.ctex::
+10-atk_alien1.png::CompressedTexture2D/CompressedTexture2D::665794384682496682::1762255640::1762255641::1::::<><><>0<>0<>3b37735798729e31d30e39cbb0e925ca<>res://.godot/imported/10-atk_alien1.png-56f69c6d0735ed1f14e687ba7c2733d7.ctex::
+::res://assets/sprites/aliens/alien 1/idle/::1762257949
+1-idle_alien1.png::CompressedTexture2D/CompressedTexture2D::7665245041388897128::1762255641::1762255641::1::::<><><>0<>0<>384ebf8c2aa563438e9da44d6f6eb9d9<>res://.godot/imported/1-idle_alien1.png-2e7137d035089940ea81a4493edee635.ctex::
+2-idle_alien1.png::CompressedTexture2D/CompressedTexture2D::8381373888907727660::1762255641::1762255641::1::::<><><>0<>0<>6ad97853fb072773a80a57cb2238dadf<>res://.godot/imported/2-idle_alien1.png-0bba6d1be2e81327ea13802007dae443.ctex::
+3-idle_alien1.png::CompressedTexture2D/CompressedTexture2D::6986094169547042576::1762255641::1762255641::1::::<><><>0<>0<>195e87c87c38124e84bd9e28e032343a<>res://.godot/imported/3-idle_alien1.png-b36ba5463a52eb47392392288074a32a.ctex::
+4-idle_alien1.png::CompressedTexture2D/CompressedTexture2D::1370825766097907568::1762255641::1762255641::1::::<><><>0<>0<>6166e60026050383ddb1fc470bd31167<>res://.godot/imported/4-idle_alien1.png-65037f64e07f18ffc5eefea9b1781b20.ctex::
+::res://assets/sprites/aliens/alien 2/::1762263188
+alien 2.png::CompressedTexture2D/CompressedTexture2D::3772487326455774762::1762255641::1762255641::1::::<><><>0<>0<>f642b92993a90350245eea3e92275b14<>res://.godot/imported/alien 2.png-e96c2cea6d0f9c2ca95a5e35bd16eff1.ctex::
+::res://assets/sprites/aliens/alien 2/idle/::1762263189
+1 - idle_alien2.png::CompressedTexture2D/CompressedTexture2D::1043621996142086788::1762263188::1762263189::1::::<><><>0<>0<>ca37c47c4b938094954a1ed58ee19190<>res://.godot/imported/1 - idle_alien2.png-efb4644949db3aa0a70ee05247f747ef.ctex::
+2 - idle_alien2.png::CompressedTexture2D/CompressedTexture2D::6088967863520252568::1762263188::1762263189::1::::<><><>0<>0<>e18e82c0779769d5b6e4d84d37bd3486<>res://.godot/imported/2 - idle_alien2.png-669246059354011ff931ffe755d19fd1.ctex::
+3 - idle_alien2.png::CompressedTexture2D/CompressedTexture2D::4317470026799946905::1762263188::1762263189::1::::<><><>0<>0<>918b4680327f998f4ac4f522b8bc456f<>res://.godot/imported/3 - idle_alien2.png-0b8c5f593d45e2dbb69bb774313140f5.ctex::
+4 - idle_alien2.png::CompressedTexture2D/CompressedTexture2D::6228251701194547305::1762263188::1762263189::1::::<><><>0<>0<>662b791252a9a62f2536c561aade521f<>res://.godot/imported/4 - idle_alien2.png-92d37cc5e6b6d02febbe5d06c1539c30.ctex::
+5 - idle_alien2.png::CompressedTexture2D/CompressedTexture2D::272431273274876125::1762263188::1762263189::1::::<><><>0<>0<>282cc2db3f2a9bf53975c9b758ffedd9<>res://.godot/imported/5 - idle_alien2.png-6380bb5e618dde7ddae8a6665c657303.ctex::
+6 - idle_alien2.png::CompressedTexture2D/CompressedTexture2D::493520077414743013::1762263188::1762263189::1::::<><><>0<>0<>964e0e05df1f56aa45b028f72ad158f7<>res://.godot/imported/6 - idle_alien2.png-36bf9c2d757f6650ec2e8a72d7fef1b1.ctex::
+7 - idle_alien2.png::CompressedTexture2D/CompressedTexture2D::4187781362962695224::1762263188::1762263189::1::::<><><>0<>0<>086f59ca0731fd44b207cdf64c61b71e<>res://.godot/imported/7 - idle_alien2.png-803842d5d14d64984e27aa898869886a.ctex::
+::res://assets/sprites/monkeys/::1762257950
+::res://assets/sprites/monkeys/gorilla/::1762257949
+gorilla.png::CompressedTexture2D/CompressedTexture2D::4749698692174046846::1762251538::1762251539::1::::<><><>0<>0<>2c71a14a0262686ecebcc91e0dafa5fa<>res://.godot/imported/gorilla.png-0421c5d8d3da9c340ede8748085a4eb8.ctex::
+::res://assets/sprites/monkeys/gorilla/attack/::1762257949
+1-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::5643125374338052437::1762251538::1762251539::1::::<><><>0<>0<>682f6321a6c533fcb996eb6e2289c174<>res://.godot/imported/1-attack_gorilla.png-96a856f8576e8ba248917d72c88cd306.ctex::
+2-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::4261165018005259559::1762251538::1762251539::1::::<><><>0<>0<>b7c754a7127ad34f162e507c804ffb3e<>res://.godot/imported/2-attack_gorilla.png-7be04c66f3739d750b5a1c0673dbfdc9.ctex::
+3-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::4900235493757221492::1762251538::1762251539::1::::<><><>0<>0<>5de0bd43b9980fa148b1364ef8e51f16<>res://.godot/imported/3-attack_gorilla.png-3d87e6c0dd6ec230f7e238ceff99ab8e.ctex::
+4-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::652990047262567624::1762251538::1762251539::1::::<><><>0<>0<>04de7da1e810736933a7e587662a7309<>res://.godot/imported/4-attack_gorilla.png-a2211642dde4ee8366fa10948a145190.ctex::
+5-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::4004358240946081927::1762251538::1762251539::1::::<><><>0<>0<>cd6e983d44ef12557fa051aad01e5b26<>res://.godot/imported/5-attack_gorilla.png-20329ef14ae49611982f10e233e6df60.ctex::
+6-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::6919766447846884437::1762251538::1762251539::1::::<><><>0<>0<>442a6d717dd53af8beb68c8c983e0013<>res://.godot/imported/6-attack_gorilla.png-86a941cb15f989835436094bede2baea.ctex::
+7-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::2181283064157897392::1762251538::1762251539::1::::<><><>0<>0<>a39910b29923f83bc948e460c805d162<>res://.godot/imported/7-attack_gorilla.png-a9d2641bb9f0fd636ef6ab0bea5ce52d.ctex::
+8-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::1859929641353688317::1762251538::1762251539::1::::<><><>0<>0<>4d76956f9d761fea06a8f96f93f933b9<>res://.godot/imported/8-attack_gorilla.png-3e52418c4e0db9cd1aa03578b8fb12ef.ctex::
+9-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::8023058712693063094::1762251538::1762251539::1::::<><><>0<>0<>5b14e58c8d4fbc42d9497594a7bc8b16<>res://.godot/imported/9-attack_gorilla.png-cc5ba0863bff47d04e7d509fff7b1561.ctex::
+10-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::5834799689134083309::1762251538::1762251539::1::::<><><>0<>0<>f652ecbf520988be4ac013884fef224b<>res://.godot/imported/10-attack_gorilla.png-c2e1f71f426c77577e08f38cd686066c.ctex::
+11-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::460857598444093527::1762251538::1762251539::1::::<><><>0<>0<>e75d2ac4949a18737e52f9b2dd5dd963<>res://.godot/imported/11-attack_gorilla.png-ddeece0be888290cbe5a72a5bfe4b7c5.ctex::
+12-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::3439694517983216642::1762251538::1762251539::1::::<><><>0<>0<>11bd7c7568b10dc42a53e3fe6f703e9f<>res://.godot/imported/12-attack_gorilla.png-8d3d1ef9613628811b97bdf7b2cb9456.ctex::
+13-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::8358287928250763370::1762251538::1762251539::1::::<><><>0<>0<>e539fcbd7f315f417d55952b91abbf67<>res://.godot/imported/13-attack_gorilla.png-4c54efd344c6f78e66a8c14a44fe75fc.ctex::
+14-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::7696736148158569292::1762251538::1762251539::1::::<><><>0<>0<>dae932a060b5a19c4c57a4000675fe2e<>res://.godot/imported/14-attack_gorilla.png-524ad79e7eef619544859c992c8fbc80.ctex::
+15-attack_gorilla.png::CompressedTexture2D/CompressedTexture2D::1571919635408422480::1762251538::1762251539::1::::<><><>0<>0<>354bc04d7730f17b97d22bff3ad9f383<>res://.godot/imported/15-attack_gorilla.png-3744ba35552d2fc1f99729119becfe9f.ctex::
+::res://assets/sprites/monkeys/gorilla/idle/::1762257950
+1-idle_gorilla.png::CompressedTexture2D/CompressedTexture2D::6666585625052741594::1762251538::1762251539::1::::<><><>0<>0<>c847f22e4bbe56965c901253e5154a8f<>res://.godot/imported/1-idle_gorilla.png-2efc95d38ed7c050b04af7d79178b1f9.ctex::
+2-idle_gorilla.png::CompressedTexture2D/CompressedTexture2D::3741704965315655048::1762251538::1762251539::1::::<><><>0<>0<>1f62e471604b12c48fa8abb70e30c1fd<>res://.godot/imported/2-idle_gorilla.png-c578af8744db935af488d06700bf23f4.ctex::
+3-idle_gorilla.png::CompressedTexture2D/CompressedTexture2D::2971231190697749950::1762251538::1762251538::1::::<><><>0<>0<>2162130526558d4020ec1228f1e80016<>res://.godot/imported/3-idle_gorilla.png-f2bbaed27a9a0b138f151d805954337e.ctex::
+::res://assets/sprites/monkeys/melee troop/::1762257950
+melee troop.png::CompressedTexture2D/CompressedTexture2D::5501171240713591211::1762251538::1762251538::1::::<><><>0<>0<>bb55bc09cae7c5747abd6f05fcc29d4e<>res://.godot/imported/melee troop.png-d82c5c0db7c2148cabc92652ff89b9aa.ctex::
+::res://assets/sprites/monkeys/melee troop/attack/::1762257950
+1-attack_melee.png::CompressedTexture2D/CompressedTexture2D::8372744408010645864::1762251538::1762251538::1::::<><><>0<>0<>a1d1ceb2d3cd51afbe9a2ab2d2d9d8e6<>res://.godot/imported/1-attack_melee.png-b2a5d547cf6d6c44043a1eaf00a9166e.ctex::
+2-attack_melee.png::CompressedTexture2D/CompressedTexture2D::8812757729176730091::1762251538::1762251538::1::::<><><>0<>0<>10e3348815a7d3e152c43e186c3b1ca2<>res://.godot/imported/2-attack_melee.png-863cb358e34f2f995703e42c7b2a6e9f.ctex::
+3-attack_melee.png::CompressedTexture2D/CompressedTexture2D::7547862624971268482::1762251538::1762251538::1::::<><><>0<>0<>e360a0252951249007d7671c3dc7bf2b<>res://.godot/imported/3-attack_melee.png-51e29ec66b486d038ca5dafd6e560714.ctex::
+4-attack_melee.png::CompressedTexture2D/CompressedTexture2D::6268830271374344683::1762251538::1762251538::1::::<><><>0<>0<>5615e2dea1ad2344b6ae19dfc9f6f903<>res://.godot/imported/4-attack_melee.png-bba56858b9490f13c8d272d6eca3459f.ctex::
+::res://assets/sprites/monkeys/melee troop/idle/::1762257950
+1-idle_melee.png::CompressedTexture2D/CompressedTexture2D::6808397685518731414::1762251538::1762251538::1::::<><><>0<>0<>847de04aca90282f7b73f3f0f6d03b46<>res://.godot/imported/1-idle_melee.png-73e6f3eb85c6638e67a00be9d8e21a2d.ctex::
+2-idle_melee.png::CompressedTexture2D/CompressedTexture2D::4609643424696538034::1762251538::1762251538::1::::<><><>0<>0<>7ea5db2a5a404abf06d6d57cfcbdbd4c<>res://.godot/imported/2-idle_melee.png-edbe409308a42bcb7ad9e97fa0a5c7e0.ctex::
+3-idle_melee.png::CompressedTexture2D/CompressedTexture2D::4058270326651626932::1762251538::1762251538::1::::<><><>0<>0<>a9560580e931c7f09991087907f2a4e6<>res://.godot/imported/3-idle_melee.png-b454905b4bef419f7c1545fce81ee8b5.ctex::
+4-idle_melee.png::CompressedTexture2D/CompressedTexture2D::799168223307911454::1762251538::1762251538::1::::<><><>0<>0<>463595a3bde14d2d9db86f2cd5f9ece5<>res://.godot/imported/4-idle_melee.png-167cbdd8dc80f01d900b53423e026864.ctex::
+5-idle_melee.png::CompressedTexture2D/CompressedTexture2D::1521227334103352462::1762251538::1762251538::1::::<><><>0<>0<>3b8198ade6002586f4d3dcaed9b21bd3<>res://.godot/imported/5-idle_melee.png-25106594e143c3be916a9b03fe6eba82.ctex::
+6-idle_melee.png::CompressedTexture2D/CompressedTexture2D::5579470765886851711::1762251538::1762251538::1::::<><><>0<>0<>b91991c70ded5eda03f759d813f256a1<>res://.godot/imported/6-idle_melee.png-5b3272f402f6c32971f0ed7ab8697962.ctex::
+::res://assets/sprites/monkeys/meme monke/::1762257950
+::res://assets/sprites/monkeys/meme monke/draft/::1762257950
+monke perfect.png::CompressedTexture2D/CompressedTexture2D::3046795323218496217::1762251538::1762251538::1::::<><><>0<>0<>4745649b973b7b54d04eba8df3676660<>res://.godot/imported/monke perfect.png-f750820cba3b663d5ab0873823d6d1da.ctex::
+::res://assets/sprites/tower/::1762257950
+alienTower(normal) .png::CompressedTexture2D/CompressedTexture2D::4400937189823139108::1762254046::1762254046::1::::<><><>0<>0<>4e61881c8bb8e9b1bd6842d77e03359f<>res://.godot/imported/alienTower(normal) .png-1c0c105f32b832b9e9bb3879073147ff.ctex::
+bananaShip(normal).png::CompressedTexture2D/CompressedTexture2D::7436893235203064315::1762254043::1762254044::1::::<><><>0<>0<>fdc8889ac4329816e2476612ba3702b8<>res://.godot/imported/bananaShip(normal).png-9dcc2901c32150b0f051d91b82ee284a.ctex::
+::res://scenes/::1762263215
+enemy_1.tscn::PackedScene::6015997038402193690::1762263215::0::1::::<><><>0<>0<><>::uid://btyqf365q0i6::::res://scripts/enemy_1.gd<>uid://o4ski5abt70k::::res://assets/sprites/aliens/alien 2/idle/1 - idle_alien2.png<>uid://cs0sn8h8r4a3i::::res://assets/sprites/aliens/alien 2/idle/2 - idle_alien2.png<>uid://b2rodoicdhpm4::::res://assets/sprites/aliens/alien 2/idle/3 - idle_alien2.png<>uid://cu0anpjcxiw78::::res://assets/sprites/aliens/alien 2/idle/4 - idle_alien2.png<>uid://d475ygbyqex6::::res://assets/sprites/aliens/alien 2/idle/5 - idle_alien2.png<>uid://hbcg6lfbhcjd::::res://assets/sprites/aliens/alien 2/idle/6 - idle_alien2.png<>uid://b0wufaf08pq13::::res://assets/sprites/aliens/alien 2/idle/7 - idle_alien2.png
+main_game.gd::GDScript/GDScript::7566970889860284425::1762252316::0::1::::<>Node<><>0<>0<><>::
+main_game.tscn::PackedScene::226398225289998221::1762263215::0::1::::<><><>0<>0<><>::uid://df2q51gonkda4::::res://scenes/main_game.gd<>uid://b3x317fwi7l45::::res://assets/sprites/tower/alienTower(normal) .png<>uid://ci5b5orypbxfe::::res://scenes/sprite_2d.gd<>uid://2h4c4bcu8aof::::res://assets/backgrounds/bg3.png<>uid://dd7qsscix2g2f::::res://assets/sprites/tower/bananaShip(normal).png
+monkey_1.tscn::PackedScene::1026771002505904023::1762263215::0::1::::<><><>0<>0<><>::uid://crjqh1owj1i6s::::res://scripts/monkey_1.gd<>uid://c18lxrcwupvao::::res://assets/sprites/monkeys/gorilla/idle/1-idle_gorilla.png<>uid://btkrlmh2vr65y::::res://assets/sprites/monkeys/gorilla/idle/2-idle_gorilla.png<>uid://bilj0ju11xca5::::res://assets/sprites/monkeys/gorilla/idle/3-idle_gorilla.png<>uid://cmntpkyjc4ilx::::res://assets/sprites/monkeys/gorilla/attack/1-attack_gorilla.png<>uid://cpeoke7rr3muf::::res://assets/sprites/monkeys/gorilla/attack/10-attack_gorilla.png<>uid://gtii0pqjoy28::::res://assets/sprites/monkeys/gorilla/attack/11-attack_gorilla.png<>uid://bpahjbxmtqvfu::::res://assets/sprites/monkeys/gorilla/attack/12-attack_gorilla.png<>uid://drc21s4dk7i5o::::res://assets/sprites/monkeys/gorilla/attack/13-attack_gorilla.png<>uid://dhwmecsx2qcm3::::res://assets/sprites/monkeys/gorilla/attack/14-attack_gorilla.png<>uid://wnpj0p3dg5uq::::res://assets/sprites/monkeys/gorilla/attack/15-attack_gorilla.png
+monkey_2.gd::GDScript/GDScript::381255342123692318::1762253887::0::1::::<>Area2D<><>0<>0<><>::
+monkey_2.tscn::PackedScene::4243445856105010567::1762263215::0::1::::<><><>0<>0<><>::uid://foxhqclrakpi::::res://scenes/monkey_2.gd<>uid://c4abkyldgfbv7::::res://assets/sprites/monkeys/melee troop/idle/1-idle_melee.png<>uid://drj2427t7cg77::::res://assets/sprites/monkeys/melee troop/attack/1-attack_melee.png<>uid://b6w7fhydqp3de::::res://assets/sprites/monkeys/melee troop/idle/2-idle_melee.png<>uid://dxs73kclvt3br::::res://assets/sprites/monkeys/melee troop/attack/2-attack_melee.png<>uid://bx24eb8kbswuu::::res://assets/sprites/monkeys/melee troop/idle/3-idle_melee.png<>uid://dfsigvbtsrl11::::res://assets/sprites/monkeys/melee troop/attack/3-attack_melee.png<>uid://cvkwyo2cubxjv::::res://assets/sprites/monkeys/melee troop/attack/4-attack_melee.png<>uid://lnegiteyj1i5::::res://assets/sprites/monkeys/melee troop/idle/4-idle_melee.png<>uid://vw5nlc0v5kag::::res://assets/sprites/monkeys/melee troop/idle/5-idle_melee.png<>uid://clq0claftyc0v::::res://assets/sprites/monkeys/melee troop/idle/6-idle_melee.png
 sprite_2d.gd::GDScript/GDScript::5396398502621306178::1759721991::0::1::::<>Sprite2D<><>0<>0<><>::
-::res://scripts/::1762253887
-enemy_1.gd::GDScript::110898108814562259::1762253887::0::1::::<>Area2D<><>0<>0<><>::
-monkey_1.gd::GDScript::5985616469707892464::1762253623::0::1::::<>Area2D<><>0<>0<><>::
+::res://scripts/::1762257996
+enemy_1.gd::GDScript/GDScript::110898108814562259::1762253887::0::1::::<>Area2D<><>0<>0<><>::
+monkey_1.gd::GDScript/GDScript::5985616469707892464::1762253623::0::1::::<>Area2D<><>0<>0<><>::
 ::res://scripts/codes/::1759718632

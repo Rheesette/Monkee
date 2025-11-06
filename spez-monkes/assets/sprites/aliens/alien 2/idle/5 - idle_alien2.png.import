@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://db62yqxwotclq"
-path="res://.godot/imported/5-idle_alien2.png-069bd78ddb9588e9fce40b09df609dbd.ctex"
+uid="uid://d475ygbyqex6"
+path="res://.godot/imported/5 - idle_alien2.png-6380bb5e618dde7ddae8a6665c657303.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/aliens/alien 2/idle/5-idle_alien2.png"
-dest_files=["res://.godot/imported/5-idle_alien2.png-069bd78ddb9588e9fce40b09df609dbd.ctex"]
+source_file="res://assets/sprites/aliens/alien 2/idle/5 - idle_alien2.png"
+dest_files=["res://.godot/imported/5 - idle_alien2.png-6380bb5e618dde7ddae8a6665c657303.ctex"]
 
 [params]
 
