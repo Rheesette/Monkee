@@ -1,16 +1,17 @@
-[gd_scene load_steps=8 format=3 uid="uid://dhw0may3xvnh"]
+[gd_scene load_steps=10 format=3 uid="uid://dhw0may3xvnh"]
 
 [ext_resource type="Script" uid="uid://df2q51gonkda4" path="res://scenes/main_game.gd" id="1_d2op2"]
 [ext_resource type="Texture2D" uid="uid://b3x317fwi7l45" path="res://assets/sprites/tower/alienTower(normal) .png" id="2_0rdsr"]
 [ext_resource type="Script" uid="uid://ci5b5orypbxfe" path="res://scenes/sprite_2d.gd" id="2_72e8q"]
 [ext_resource type="Texture2D" uid="uid://2h4c4bcu8aof" path="res://assets/backgrounds/bg3.png" id="2_ipu61"]
+[ext_resource type="Texture2D" uid="uid://dols2wjpw2bmb" path="res://assets/icons/gorillaicon.png" id="3_wi4c7"]
+[ext_resource type="Texture2D" uid="uid://vdbhmtk84bgv" path="res://assets/icons/monkeyicon.png" id="4_70vka"]
 [ext_resource type="Texture2D" uid="uid://dd7qsscix2g2f" path="res://assets/sprites/tower/bananaShip(normal).png" id="4_ipu61"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ihbon"]
 bg_color = Color(0.455344, 0.666909, 0.390617, 1)
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1oj5k"]
-bg_color = Color(0.793977, 0.702555, 0.764074, 1)
+[sub_resource type="MeshTexture" id="MeshTexture_2l77h"]
 
 [node name="Main game" type="Node"]
 script = ExtResource("1_d2op2")
@@ -49,62 +50,49 @@ custom_minimum_size = Vector2(640, 100)
 layout_mode = 2
 size_flags_vertical = 0
 
-[node name="Label" type="Label" parent="PanelContainer/MarginContainer/HSplitContainer"]
-custom_minimum_size = Vector2(170, 100)
-layout_mode = 2
-size_flags_horizontal = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 11
-theme_override_styles/normal = SubResource("StyleBoxFlat_1oj5k")
-text = "Challenge/Buff/Debuff Details  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel diam vel leo rutrum fermentum sed eget enim."
-autowrap_mode = 2
-clip_text = true
-
 [node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/MarginContainer/HSplitContainer"]
 custom_minimum_size = Vector2(200, 20)
 layout_mode = 2
 size_flags_horizontal = 3
 
 [node name="Button" type="Button" parent="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer"]
-custom_minimum_size = Vector2(80, 80)
+clip_contents = true
 layout_mode = 2
-text = "gorilla"
+size_flags_horizontal = 4
+theme_override_icons/icon = SubResource("MeshTexture_2l77h")
+icon = ExtResource("3_wi4c7")
 
 [node name="Button2" type="Button" parent="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer"]
 custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
-text = "melee
-monke"
+text = "
+"
+icon = ExtResource("4_70vka")
 
 [node name="Button3" type="Button" parent="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer"]
 custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
 text = "monke"
 
-[node name="Button" type="Button" parent="PanelContainer/MarginContainer/HSplitContainer"]
+[node name="upgradeTower" type="Button" parent="PanelContainer/MarginContainer/HSplitContainer"]
 custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
 size_flags_horizontal = 3
-text = "Tower Skills & Icon"
+text = "Upgrade Tower
+"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(72, 213)
+position = Vector2(76, 223)
 texture = ExtResource("2_0rdsr")
 script = ExtResource("2_72e8q")
-
-[node name="Timer" type="Timer" parent="Sprite2D"]
-wait_time = 3.0
-autostart = true
 
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(536, 268)
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(535, 218)
+[node name="Base" type="Sprite2D" parent="."]
+position = Vector2(532, 221)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("4_ipu61")
-script = ExtResource("2_72e8q")
 
 [node name="coin" type="Timer" parent="."]
 autostart = true
@@ -118,5 +106,5 @@ text = "Coins/s: 0"
 
 [connection signal="pressed" from="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer/Button2" to="." method="_on_button_2_pressed"]
-[connection signal="timeout" from="Sprite2D/Timer" to="Sprite2D" method="_on_timer_timeout"]
+[connection signal="pressed" from="PanelContainer/MarginContainer/HSplitContainer/upgradeTower" to="." method="_on_upgrade_tower_pressed"]
 [connection signal="timeout" from="coin" to="." method="_on_coin_timeout"]

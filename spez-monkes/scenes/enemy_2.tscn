@@ -1,0 +1,98 @@
+[gd_scene load_steps=21 format=3 uid="uid://ccsvb6bkgfbsx"]
+
+[ext_resource type="Script" uid="uid://gr0gjtekir43" path="res://enemy_2.gd" id="1_hv1ai"]
+[ext_resource type="Texture2D" uid="uid://cu82x7uiqvk" path="res://assets/sprites/aliens/alien 2/attack/atk1.png" id="2_6dp05"]
+[ext_resource type="Texture2D" uid="uid://bmb2q6emluxmi" path="res://assets/sprites/aliens/alien 2/attack/atk2.png" id="3_82mwo"]
+[ext_resource type="Texture2D" uid="uid://bnqh78mua86k1" path="res://assets/sprites/aliens/alien 2/attack/atk3.png" id="4_hv1ai"]
+[ext_resource type="Texture2D" uid="uid://dve0nq1j1okxm" path="res://assets/sprites/aliens/alien 2/attack/atk4.png" id="5_2mvye"]
+[ext_resource type="Texture2D" uid="uid://y50acrrdksfq" path="res://assets/sprites/aliens/alien 2/attack/atk5.png" id="6_n88sx"]
+[ext_resource type="Texture2D" uid="uid://tnfx8m01uecy" path="res://assets/sprites/aliens/alien 2/attack/atk6.png" id="7_bbuvh"]
+[ext_resource type="Texture2D" uid="uid://cx583ah20bmgw" path="res://assets/sprites/aliens/alien 2/attack/atk7.png" id="8_7v7lw"]
+[ext_resource type="Texture2D" uid="uid://bvlf78v44ttl1" path="res://assets/sprites/aliens/alien 2/attack/atk8.png" id="9_c8vbn"]
+[ext_resource type="Texture2D" uid="uid://ccxi327xdx6sy" path="res://assets/sprites/aliens/alien 2/attack/atk9.png" id="10_3eqed"]
+[ext_resource type="Texture2D" uid="uid://dfxdfp5a6kkek" path="res://assets/sprites/aliens/alien 2/attack/atk10.png" id="11_smvsi"]
+[ext_resource type="Texture2D" uid="uid://ckp3wh7dtmbmk" path="res://assets/sprites/aliens/alien 2/idle/idle1.png" id="12_c8vbn"]
+[ext_resource type="Texture2D" uid="uid://sd5bkbfhcdlb" path="res://assets/sprites/aliens/alien 2/idle/idle2.png" id="13_3eqed"]
+[ext_resource type="Texture2D" uid="uid://bcro5yvuddiub" path="res://assets/sprites/aliens/alien 2/idle/idle3.png" id="14_smvsi"]
+[ext_resource type="Texture2D" uid="uid://bb2f61fbed6j4" path="res://assets/sprites/aliens/alien 2/idle/idle4.png" id="15_7bwrd"]
+[ext_resource type="Texture2D" uid="uid://o00ie56dtjvo" path="res://assets/sprites/aliens/alien 2/idle/idle5.png" id="16_6do3i"]
+[ext_resource type="Texture2D" uid="uid://omo745u1rfo3" path="res://assets/sprites/aliens/alien 2/idle/idle6.png" id="17_qjnyp"]
+[ext_resource type="Texture2D" uid="uid://b8apio1ae8wom" path="res://assets/sprites/aliens/alien 2/idle/idle7.png" id="18_1jmet"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hcr21"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_6dp05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_82mwo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hv1ai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2mvye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_n88sx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bbuvh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_7v7lw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_c8vbn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_3eqed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_smvsi")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_c8vbn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_3eqed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_smvsi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_7bwrd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_6do3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_qjnyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_1jmet")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pjquw"]
+radius = 17.0
+
+[node name="enemy2" type="Area2D" groups=["enemy"]]
+script = ExtResource("1_hv1ai")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.04, 0.04)
+sprite_frames = SubResource("SpriteFrames_hcr21")
+animation = &"attack"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_pjquw")

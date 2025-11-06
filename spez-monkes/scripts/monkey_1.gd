@@ -36,6 +36,5 @@ func knockback():
 
 func damage(dmg):
 	self.hp -= dmg
-	print(self.hp)
 	if self.hp <= 0:
 		queue_free()

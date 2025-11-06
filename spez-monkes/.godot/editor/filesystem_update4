@@ -2,5 +2,12 @@ res://scenes/enemy_1.tscn
 res://scenes/main_game.tscn
 res://scenes/monkey_1.tscn
 res://scenes/monkey_2.tscn
-res://scenes/main_game.gd
 res://scenes/menu.tscn
+res://scenes/main_game.gd
+res://scripts/enemy_1.gd
+res://scenes/enemy_2.tscn
+res://enemy_1.gd
+res://enemy_2.gd
+res://scenes/sprite_2d.gd
+res://scripts/monkey_1.gd
+res://scenes/monkey_2.gd
