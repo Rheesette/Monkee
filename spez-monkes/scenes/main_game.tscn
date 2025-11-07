@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://dhw0may3xvnh"]
+[gd_scene load_steps=18 format=3 uid="uid://dhw0may3xvnh"]
 
 [ext_resource type="Script" uid="uid://df2q51gonkda4" path="res://scenes/main_game.gd" id="1_d2op2"]
 [ext_resource type="Texture2D" uid="uid://b3x317fwi7l45" path="res://assets/sprites/tower/alienTower(normal) .png" id="2_0rdsr"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://dols2wjpw2bmb" path="res://assets/icons/gorillaicon.png" id="3_wi4c7"]
 [ext_resource type="Texture2D" uid="uid://vdbhmtk84bgv" path="res://assets/icons/monkeyicon.png" id="4_70vka"]
 [ext_resource type="Texture2D" uid="uid://dd7qsscix2g2f" path="res://assets/sprites/tower/bananaShip(normal).png" id="4_ipu61"]
+[ext_resource type="Texture2D" uid="uid://bcmmws25488fy" path="res://assets/sprites/monkeys/meme monke/monke_cropped.png" id="5_sp04v"]
 [ext_resource type="Script" uid="uid://dfe8btiwai2qq" path="res://scenes/area_2d.gd" id="6_70vka"]
 [ext_resource type="AudioStream" uid="uid://cn5gywui584ns" path="res://assets/music/win.mp3" id="9_2l77h"]
 [ext_resource type="AudioStream" uid="uid://qsho11kwvn03" path="res://assets/music/place.mp3" id="10_nqdth"]
@@ -79,7 +80,7 @@ icon = ExtResource("4_70vka")
 [node name="Button3" type="Button" parent="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer"]
 custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
-text = "monke"
+icon = ExtResource("5_sp04v")
 
 [node name="upgradeTower" type="Button" parent="PanelContainer/MarginContainer/HSplitContainer"]
 custom_minimum_size = Vector2(80, 80)
@@ -161,6 +162,7 @@ stream = ExtResource("14_sp04v")
 
 [connection signal="pressed" from="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="PanelContainer/MarginContainer/HSplitContainer/HBoxContainer/Button3" to="." method="_on_button_3_pressed"]
 [connection signal="pressed" from="PanelContainer/MarginContainer/HSplitContainer/upgradeTower" to="." method="_on_upgrade_tower_pressed"]
 [connection signal="timeout" from="coin" to="." method="_on_coin_timeout"]
 [connection signal="timeout" from="enemyBase/Sprite2D/enemySpawn" to="enemyBase/Sprite2D" method="_on_enemy_spawn_timeout"]

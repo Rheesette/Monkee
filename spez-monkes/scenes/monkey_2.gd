@@ -1,17 +1,15 @@
 extends Area2D
 
-var hp = 3.0
-var dmg = 1
+var hp = 20
+var dmg = 10
 var cooldown = .5
 
 @export var speed: float = 50
 @export var knockback_force: float = 15
-@onready var anim = $anim
 var direction: int = -1
 var can_move: bool = true
 
 func _ready():
-	anim.play("idle")
 	connect("area_entered", Callable(self, "_on_area_entered"))
 
 func _process(delta):
@@ -25,12 +23,12 @@ func _on_area_entered(area):
 		area.damage(dmg)
 
 func attack() -> void:
+	var aud = $AudioStreamPlayer2D
 	can_move = false
-	anim.play("attack")
-	$AudioStreamPlayer2D.play()
-	await anim.animation_finished
-	anim.play("idle")
+	aud.play()
+	await aud.finished  # wait until the audio finishes
 	can_move = true
+
 
 func knockback():
 	position.x += knockback_force
