@@ -1,4 +1,25 @@
-[gd_scene format=3 uid="uid://dlpaao5rj3xlk"]
+[gd_scene load_steps=9 format=3 uid="uid://dlpaao5rj3xlk"]
+
+[ext_resource type="Script" uid="uid://bm5qbx1d7q6xt" path="res://scenes/menu.gd" id="1_mhnvy"]
+[ext_resource type="Texture2D" uid="uid://2h4c4bcu8aof" path="res://assets/backgrounds/bg3.png" id="1_yqeox"]
+[ext_resource type="FontFile" uid="uid://cuyfd86jowjdg" path="res://assets/Silkscreen-Regular.ttf" id="2_con2f"]
+[ext_resource type="FontFile" uid="uid://bdwum7rk7babn" path="res://assets/Silkscreen-Bold.ttf" id="3_mhnvy"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4ytvr"]
+texture = ExtResource("1_yqeox")
+modulate_color = Color(0.821789, 0.821789, 0.821789, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_con2f"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yqeox"]
+bg_color = Color(1, 1, 1, 0.788235)
+shadow_color = Color(0, 0, 0, 0.54902)
+shadow_size = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_con2f"]
+bg_color = Color(0.239216, 0.239216, 0.239216, 0.701961)
+shadow_color = Color(0, 0, 0, 0.54902)
+shadow_size = 10
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -7,3 +28,95 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_mhnvy")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_right = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_4ytvr")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -127.0
+offset_top = 19.0
+offset_right = 125.0
+offset_bottom = 175.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 15
+
+[node name="start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_con2f")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/focus = SubResource("StyleBoxEmpty_con2f")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_yqeox")
+theme_override_styles/hover = SubResource("StyleBoxFlat_con2f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_yqeox")
+text = "START!"
+
+[node name="shop" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_con2f")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/focus = SubResource("StyleBoxEmpty_con2f")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_yqeox")
+theme_override_styles/hover = SubResource("StyleBoxFlat_con2f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_yqeox")
+text = "Shop"
+
+[node name="exit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_con2f")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/focus = SubResource("StyleBoxEmpty_con2f")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_yqeox")
+theme_override_styles/hover = SubResource("StyleBoxFlat_con2f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_yqeox")
+text = "Exit
+"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -322.0
+offset_top = 99.0
+offset_right = 335.0
+offset_bottom = 164.0
+grow_horizontal = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 8
+theme_override_fonts/font = ExtResource("3_mhnvy")
+theme_override_font_sizes/font_size = 40
+text = "Monkey vs Aliens"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/shop" to="." method="_on_shop_pressed"]
+[connection signal="pressed" from="VBoxContainer/exit" to="." method="_on_exit_pressed"]

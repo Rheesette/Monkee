@@ -1,7 +1,7 @@
 extends Area2D
 
 var hp = 3.0
-var dmg = 1
+var dmg = 2
 var cooldown = .5
 @onready var anim = $Sprite2D
 
@@ -19,14 +19,16 @@ func _process(delta):
 		position.x += speed * direction * delta
 
 func _on_area_entered(area):
-	if area.is_in_group("team"):
+	if area.is_in_group("team") or area.is_in_group("monketower"):
 		attack()
 		knockback()
+		
 		area.damage(dmg)
 
 func attack() -> void:
 	can_move = false
 	anim.play("attack")
+	$AudioStreamPlayer2D.play()
 	await anim.animation_finished
 	anim.play("idle")
 	can_move = true

@@ -1,0 +1,83 @@
+[gd_scene load_steps=11 format=3 uid="uid://8uot54ngaw36"]
+
+[ext_resource type="Texture2D" uid="uid://bidf3qssff67o" path="res://assets/sprites/aliens/alien 3/attack/atk 1.png" id="1_npg85"]
+[ext_resource type="Texture2D" uid="uid://b2bwu54acsvbx" path="res://assets/sprites/aliens/alien 3/attack/atk 2.png" id="2_8pqjj"]
+[ext_resource type="Texture2D" uid="uid://bhfdxipqqoatv" path="res://assets/sprites/aliens/alien 3/attack/atk 3.png" id="3_x2fms"]
+[ext_resource type="Texture2D" uid="uid://c4vr0p74usokq" path="res://assets/sprites/aliens/alien 3/attack/atk 4.png" id="4_pjwrv"]
+[ext_resource type="Texture2D" uid="uid://djd43iubrjofh" path="res://assets/sprites/aliens/alien 3/attack/atk 5.png" id="5_1imbw"]
+[ext_resource type="Texture2D" uid="uid://cpufx3f6l5bhl" path="res://assets/sprites/aliens/alien 3/attack/atk 6.png" id="6_c3w68"]
+[ext_resource type="Texture2D" uid="uid://cs6ak8ndmyagv" path="res://assets/sprites/aliens/alien 3/attack/atk 7.png" id="7_2jjky"]
+[ext_resource type="Texture2D" uid="uid://c6we2sy7xa8ac" path="res://assets/sprites/aliens/alien 3/attack/atk 8.png" id="8_njbwi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7a3yj"]
+size = Vector2(96.0908, 20.7317)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ekkvi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_npg85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8pqjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_x2fms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pjwrv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1imbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c3w68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2jjky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_njbwi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_npg85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8pqjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_x2fms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pjwrv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1imbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_c3w68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2jjky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_njbwi")
+}],
+"loop": false,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="enemy3_attack" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.9937, -4.41464)
+rotation = 0.462567
+shape = SubResource("RectangleShape2D_7a3yj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+rotation = 0.443605
+scale = Vector2(0.09, 0.09)
+sprite_frames = SubResource("SpriteFrames_ekkvi")
+frame = 15
+frame_progress = 1.0

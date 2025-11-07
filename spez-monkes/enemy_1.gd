@@ -19,7 +19,7 @@ func _process(delta):
 		position.x += speed * direction * delta
 
 func _on_area_entered(area):
-	if area.is_in_group("team"):
+	if area.is_in_group("team") or area.is_in_group("monketower"):
 		attack()
 		knockback()
 		area.damage(dmg)

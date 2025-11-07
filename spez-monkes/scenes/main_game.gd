@@ -2,6 +2,8 @@ extends Node
 
 const MONKEY_1 = preload("res://scenes/monkey_1.tscn")
 const MONKEY_2 = preload("res://scenes/monkey_2.tscn")
+const GAMEOVER = preload("res://scenes/gameover.tscn")
+const Winner = preload("res://scenes/winner.tscn")
 @export var spawn_position: Vector2 = Vector2(536, 268)
 
 var coins = 0
@@ -15,6 +17,23 @@ var upgrade_cost = 10
 var gorilla_cost = 5
 var monkey_cost = 2
 
+func _ready() :
+	$enemyBase.tower_destroyed.connect(_on_tower_destroyed)
+	$monkeBase.base_destroyed.connect(_on_base_destroyed)
+
+func _on_tower_destroyed():
+	print("You win!! Tower destroyed!")
+	$win.play()
+	await $win.finished
+	get_tree().change_scene_to_packed(Winner)
+
+func _on_base_destroyed():
+	print("Game Over! Your base is destroyed!")
+	$fail.play()
+	await $fail.finished
+	get_tree().change_scene_to_packed(GAMEOVER)
+
+
 func _on_button_pressed() -> void:
 	if coins >= gorilla_cost:
 		coins -= gorilla_cost
@@ -22,6 +41,7 @@ func _on_button_pressed() -> void:
 		monke_ins.position = spawn_position
 		get_parent().add_child(monke_ins)
 		_update_coin_label()
+		$placce.play()
 	else:
 		print("Not enough coins!")
 
@@ -32,6 +52,7 @@ func _on_button_2_pressed() -> void:
 		monke_ins.position = spawn_position
 		get_parent().add_child(monke_ins)
 		_update_coin_label()
+		$placce.play()
 	else:
 		print("Not enough coins!")
 
@@ -58,7 +79,19 @@ func _on_upgrade_tower_pressed() -> void:
 			_update_coin_label()
 			_update_upgrade_button_text()
 			print("Tower upgraded! Level:", upgrade_level)
+			$towerUpg.play()
 		else:
 			print("Not enough coins to upgrade!")
 	else:
 		print("Tower is already at max level!")
+
+
+func _on_win_finished() -> void:
+	pass # Replace with function body.
+
+func _on_fail_finished() -> void:
+	pass # Replace with function body.
+
+
+func _on_enemy_spawn_timeout() -> void:
+	pass # Replace with function body.

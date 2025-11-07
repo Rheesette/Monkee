@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Spez Monkes"
-run/main_scene="uid://dhw0may3xvnh"
+run/main_scene="uid://dlpaao5rj3xlk"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://assets/sprites/icon.svg"
 

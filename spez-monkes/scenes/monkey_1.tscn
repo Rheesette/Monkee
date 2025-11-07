@@ -1,10 +1,11 @@
-[gd_scene load_steps=14 format=3 uid="uid://ovm1ejed2p16"]
+[gd_scene load_steps=15 format=3 uid="uid://ovm1ejed2p16"]
 
 [ext_resource type="Script" uid="uid://crjqh1owj1i6s" path="res://scripts/monkey_1.gd" id="1_aubuo"]
 [ext_resource type="Texture2D" uid="uid://c18lxrcwupvao" path="res://assets/sprites/monkeys/gorilla/idle/1-idle_gorilla.png" id="2_0yqeq"]
 [ext_resource type="Texture2D" uid="uid://btkrlmh2vr65y" path="res://assets/sprites/monkeys/gorilla/idle/2-idle_gorilla.png" id="3_0lggx"]
 [ext_resource type="Texture2D" uid="uid://bilj0ju11xca5" path="res://assets/sprites/monkeys/gorilla/idle/3-idle_gorilla.png" id="4_1nu8i"]
 [ext_resource type="Texture2D" uid="uid://cmntpkyjc4ilx" path="res://assets/sprites/monkeys/gorilla/attack/1-attack_gorilla.png" id="5_l4tka"]
+[ext_resource type="AudioStream" uid="uid://c1bqcg6rgh81l" path="res://assets/music/kick.mp3" id="12_d15ub"]
 [ext_resource type="Texture2D" uid="uid://cpeoke7rr3muf" path="res://assets/sprites/monkeys/gorilla/attack/10-attack_gorilla.png" id="14_cnki7"]
 [ext_resource type="Texture2D" uid="uid://gtii0pqjoy28" path="res://assets/sprites/monkeys/gorilla/attack/11-attack_gorilla.png" id="15_0e7bc"]
 [ext_resource type="Texture2D" uid="uid://bpahjbxmtqvfu" path="res://assets/sprites/monkeys/gorilla/attack/12-attack_gorilla.png" id="16_qwffm"]
@@ -72,3 +73,6 @@ sprite_frames = SubResource("SpriteFrames_0yqeq")
 animation = &"idle"
 frame = 2
 frame_progress = 0.384354
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_d15ub")

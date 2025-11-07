@@ -1,0 +1,70 @@
+[gd_scene load_steps=15 format=3 uid="uid://bnruvgcwogfk6"]
+
+[ext_resource type="Script" uid="uid://dl6ylqdxkt72h" path="res://enemy_3.gd" id="1_71omw"]
+[ext_resource type="AudioStream" uid="uid://dsf3j40x0fh3f" path="res://assets/music/laser.mp3" id="12_fns3h"]
+[ext_resource type="Texture2D" uid="uid://ciaovmddt7hs6" path="res://assets/sprites/aliens/alien 3/idle/idle 1.png" id="12_mq8go"]
+[ext_resource type="Texture2D" uid="uid://7pp72kujg2ri" path="res://assets/sprites/aliens/alien 3/idle/idle 2.png" id="13_q5bdt"]
+[ext_resource type="Texture2D" uid="uid://bhibolfo682i6" path="res://assets/sprites/aliens/alien 3/idle/idle 3.png" id="14_5n5md"]
+[ext_resource type="Texture2D" uid="uid://76u6gfhsxxav" path="res://assets/sprites/aliens/alien 3/idle/idle 4.png" id="15_u3wrq"]
+[ext_resource type="Texture2D" uid="uid://cv6hiu3e4l6" path="res://assets/sprites/aliens/alien 3/idle/idle 5.png" id="16_khfop"]
+[ext_resource type="Texture2D" uid="uid://4pvljvvak53i" path="res://assets/sprites/aliens/alien 3/idle/idle 6.png" id="17_8gjet"]
+[ext_resource type="Texture2D" uid="uid://dmm77eytakea0" path="res://assets/sprites/aliens/alien 3/idle/idle 7.png" id="18_3a07y"]
+[ext_resource type="Texture2D" uid="uid://c8lv3c7jpkjp8" path="res://assets/sprites/aliens/alien 3/idle/idle 8.png" id="19_mpod7"]
+[ext_resource type="Texture2D" uid="uid://c3vo8s3rg2l0i" path="res://assets/sprites/aliens/alien 3/idle/idle 9.png" id="20_2jb0i"]
+[ext_resource type="Texture2D" uid="uid://bdjk2ca6fw17k" path="res://assets/sprites/aliens/alien 3/idle/idle 10.png" id="21_7ij1o"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hcr21"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_mq8go")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_q5bdt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5n5md")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_u3wrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_khfop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_8gjet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_3a07y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_mpod7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_2jb0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_7ij1o")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pjquw"]
+radius = 47.0106
+
+[node name="enemy3" type="Area2D" groups=["enemy"]]
+script = ExtResource("1_71omw")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+sprite_frames = SubResource("SpriteFrames_hcr21")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_pjquw")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_fns3h")

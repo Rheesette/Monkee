@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://cryguew0qybqw"]
+[gd_scene load_steps=17 format=3 uid="uid://cryguew0qybqw"]
 
 [ext_resource type="Script" uid="uid://btyqf365q0i6" path="res://scripts/enemy_1.gd" id="1_a1412"]
 [ext_resource type="Texture2D" uid="uid://dn4v3kfirk4t4" path="res://assets/sprites/aliens/alien 1/idle/1 - idle_alien1.png" id="2_d3026"]
@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://0x0a3xe8666q" path="res://assets/sprites/aliens/alien 1/attack/8 - atk_alien1.png" id="9_4s5yk"]
 [ext_resource type="Texture2D" uid="uid://dvw88hffcn8vq" path="res://assets/sprites/aliens/alien 1/attack/9 - atk_alien1.png" id="10_if6mg"]
 [ext_resource type="Texture2D" uid="uid://b1ulp8d7bl570" path="res://assets/sprites/aliens/alien 1/attack/10 - atk_alien1.png" id="11_yxwnd"]
+[ext_resource type="AudioStream" uid="uid://c1bqcg6rgh81l" path="res://assets/music/kick.mp3" id="14_va0nx"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_tcrox"]
 animations = [{
@@ -76,3 +77,6 @@ animation = &"attack"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_pjquw")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("14_va0nx")
