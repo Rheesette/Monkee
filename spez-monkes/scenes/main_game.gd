@@ -60,10 +60,10 @@ func _on_button_2_pressed() -> void:
 
 func _on_coin_timeout() -> void:
 	coins += coin_rate
-	coin_label.text = "Coin/s: " + str(coins)
+	coin_label.text = str(coins)
 
 func _update_coin_label():
-	coin_label.text = "Coin/s: " + str(coins)
+	coin_label.text = str(coins)
 
 func _update_upgrade_button_text():
 	if upgrade_level < max_upgrades:

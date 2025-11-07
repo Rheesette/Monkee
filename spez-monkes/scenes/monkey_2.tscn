@@ -69,9 +69,7 @@ shape = SubResource("CircleShape2D_0mre7")
 position = Vector2(3.8147e-06, 1.90735e-06)
 scale = Vector2(0.1, 0.099)
 sprite_frames = SubResource("SpriteFrames_vmjsb")
-animation = &"attack"
-frame = 3
-frame_progress = 1.0
+animation = &"idle"
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("12_wrc8y")

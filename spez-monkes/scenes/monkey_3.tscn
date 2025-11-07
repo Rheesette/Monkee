@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dtbcexodcmb44"]
 
-[ext_resource type="Script" uid="uid://foxhqclrakpi" path="res://scenes/monkey_2.gd" id="1_cpe0f"]
+[ext_resource type="Script" uid="uid://bqycf5xtorfwy" path="res://scenes/monkey_3.gd" id="1_cpe0f"]
 [ext_resource type="Texture2D" uid="uid://cux3ys0kysx6a" path="res://assets/sprites/monkeys/meme monke/monke.png" id="2_26500"]
 [ext_resource type="AudioStream" uid="uid://c1bqcg6rgh81l" path="res://assets/music/kick.mp3" id="3_wq4lf"]
 

@@ -1,7 +1,7 @@
 extends Area2D
 
 var hp = 10
-var dmg = 5
+var dmg = 4
 var cooldown = 0.5
 @onready var anim = $Sprite2D
 
